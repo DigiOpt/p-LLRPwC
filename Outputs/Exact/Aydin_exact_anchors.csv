@@ -1,0 +1,32 @@
+profile,anchor,value,solver,gap,time_s,verify_ok
+Equal,Cmin,16741.297,flow_1x,,14400.4,True
+Equal,P_C,150827.0,derived(lat of R*),,,True
+Equal,Pmin,95809.0,bnp,0.0014329585172650928,7201.5,True
+Equal,C_P,16922.477,bnp(cost of Pmin sol),0.0,,True
+Equal,dC,181.18,,,,
+Equal,dP,55018.0,,,,
+Tiered,Cmin,16741.297,flow_1x,,14400.4,True
+Tiered,P_C,79697.9,derived(lat of R*),,,True
+Tiered,Pmin,52436.899999999994,bnp,0.0,4124.3,True
+Tiered,C_P,16930.136,bnp(cost of Pmin sol),0.0,,True
+Tiered,dC,188.839,,,,
+Tiered,dP,27261.0,,,,
+Demand_Correlated,Cmin,16741.297,flow_1x,,14400.4,True
+Demand_Correlated,P_C,91590.962963,derived(lat of R*),,,True
+Demand_Correlated,Pmin,58487.148148148146,bnp,0.0,1717.3,True
+Demand_Correlated,C_P,16922.477,bnp(cost of Pmin sol),0.0,,True
+Demand_Correlated,dC,181.18,,,,
+Demand_Correlated,dP,33103.814815,,,,
+Negative_Correlated,Cmin,16741.297,flow_1x,,14400.4,True
+Negative_Correlated,P_C,134649.537037,derived(lat of R*),,,True
+Negative_Correlated,Pmin,84313.37037037036,bnp,0.0030276912848246178,7347.4,True
+Negative_Correlated,C_P,16849.667,bnp(cost of Pmin sol),0.0,,True
+Negative_Correlated,dC,108.37,,,,
+Negative_Correlated,dP,50336.166667,,,,
+Hyper_Critical,Cmin,16741.297,flow_1x,,14400.4,True
+Hyper_Critical,P_C,194378.0,derived(lat of R*),,,True
+Hyper_Critical,Pmin,140092.0,bnp,0.009052664551530077,7201.7,True
+Hyper_Critical,C_P,16981.612,bnp(cost of Pmin sol),0.0,,True
+Hyper_Critical,dC,240.315,,,,
+Hyper_Critical,dP,54286.0,,,,
+Equal,flow_tcheby_lam0.5_gap,2.290495886883896,flow,2.290495886883896,1800.0,

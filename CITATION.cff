@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this code and data."
+title: "A Bi-objective Priority-Weighted Latency Location-Routing Problem for Pharmaceutical Distribution"
+abstract: >-
+  Reproducibility archive for a bi-objective priority-weighted latency
+  location-routing problem for pharmaceutical distribution. It contains the
+  GRASP-VND-SO heuristic, the exact method (commodity-flow MILP and
+  branch-and-price), de-identified manuscript-aligned instances (clean CSVs with
+  no coordinates, real identifiers or sales), and stored heuristic and exact
+  results (anchors, routes and anchor-normalized augmented weighted Tchebycheff
+  production curves).
+type: software
+version: "1.1.0"
+date-released: "2026-10-29"
+authors:
+  - family-names: Bal
+    given-names: Alperen
+  - family-names: Cedolin
+    given-names: Michele
+  - family-names: Çanakoğlu
+    given-names: Ethem
+keywords:
+  - location-routing problem
+  - bi-objective optimization
+  - priority-weighted latency
+  - augmented weighted Tchebycheff scalarization
+  - branch-and-price
+  - commodity-flow formulation
+  - GRASP
+  - variable neighborhood descent
+  - pharmaceutical distribution
+license-url: "LICENSE_NOTICE.md"
+# repository-code: "https://github.com/<your-account>/<repo>"   # fill in on publication
+# A DOI is intentionally omitted because the submitted manuscript may not yet have one.

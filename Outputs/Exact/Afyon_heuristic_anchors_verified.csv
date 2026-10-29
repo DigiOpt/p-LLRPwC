@@ -1,0 +1,7 @@
+city,anchor,profile,value,verify_recompute,seed,n_feasible,verify_ok
+Afyon,financial(Cmin),(all),10859.963,10859.963,5,30,True
+Afyon,latency(Pmin),Equal,7791.0,7791.0,5,30,True
+Afyon,latency(Pmin),Tiered,4298.700000000001,4298.7,0,30,True
+Afyon,latency(Pmin),Demand_Correlated,4317.853211009174,4317.853,7,30,True
+Afyon,latency(Pmin),Negative_Correlated,6856.275229357798,6856.275,0,30,True
+Afyon,latency(Pmin),Hyper_Critical,12641.0,12641.0,0,30,True

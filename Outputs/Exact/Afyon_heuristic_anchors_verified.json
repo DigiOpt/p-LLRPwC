@@ -1,0 +1,298 @@
+{
+  "city": "Afyon",
+  "financial_anchor": {
+    "financial": 10859.963,
+    "latency_equal": 18594.0,
+    "seed": 5,
+    "open_depots": [
+      0,
+      1
+    ],
+    "routes": [
+      {
+        "depot": 0,
+        "path": [
+          3,
+          9,
+          11,
+          12,
+          13,
+          6,
+          8
+        ]
+      },
+      {
+        "depot": 1,
+        "path": [
+          7,
+          1,
+          5,
+          4,
+          10
+        ]
+      },
+      {
+        "depot": 1,
+        "path": [
+          2
+        ]
+      },
+      {
+        "depot": 0,
+        "path": [
+          0
+        ]
+      }
+    ],
+    "verify_C_F": 10859.963,
+    "verify_fails": [],
+    "n_feasible_seeds": 30
+  },
+  "latency_anchor_by_profile": {
+    "Equal": {
+      "latency": 7791.0,
+      "financial": 10896.869,
+      "seed": 5,
+      "open_depots": [
+        0,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 3,
+          "path": [
+            11,
+            9,
+            8,
+            2
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            5,
+            7,
+            10
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            1,
+            13
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            12,
+            6,
+            4
+          ]
+        }
+      ],
+      "verify_P": 7791.0,
+      "verify_C_F": 10896.869,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Tiered": {
+      "latency": 4298.700000000001,
+      "financial": 10874.51,
+      "seed": 0,
+      "open_depots": [
+        0,
+        1
+      ],
+      "routes": [
+        {
+          "depot": 1,
+          "path": [
+            2,
+            7,
+            5,
+            12,
+            11
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            6,
+            13
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            1,
+            8,
+            9
+          ]
+        },
+        {
+          "depot": 1,
+          "path": [
+            10,
+            4
+          ]
+        }
+      ],
+      "verify_P": 4298.7,
+      "verify_C_F": 10874.51,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Demand_Correlated": {
+      "latency": 4317.853211009174,
+      "financial": 10877.462,
+      "seed": 7,
+      "open_depots": [
+        0,
+        1
+      ],
+      "routes": [
+        {
+          "depot": 1,
+          "path": [
+            7,
+            8,
+            9,
+            12
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            5,
+            6,
+            13
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            1,
+            11
+          ]
+        },
+        {
+          "depot": 1,
+          "path": [
+            2,
+            10,
+            4
+          ]
+        }
+      ],
+      "verify_P": 4317.853,
+      "verify_C_F": 10877.462,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Negative_Correlated": {
+      "latency": 6856.275229357798,
+      "financial": 10868.306,
+      "seed": 0,
+      "open_depots": [
+        1,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 1,
+          "path": [
+            7,
+            5,
+            3,
+            1
+          ]
+        },
+        {
+          "depot": 1,
+          "path": [
+            2,
+            10,
+            4
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            12,
+            11,
+            9,
+            8,
+            0
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            6,
+            13
+          ]
+        }
+      ],
+      "verify_P": 6856.275,
+      "verify_C_F": 10868.306,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Hyper_Critical": {
+      "latency": 12641.0,
+      "financial": 10873.529,
+      "seed": 0,
+      "open_depots": [
+        0,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 3,
+          "path": [
+            12,
+            9,
+            3,
+            1
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            5,
+            8,
+            4
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            7,
+            2,
+            10
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            11,
+            6,
+            13
+          ]
+        }
+      ],
+      "verify_P": 12641.0,
+      "verify_C_F": 10873.529,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    }
+  }
+}
