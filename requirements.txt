@@ -1,0 +1,14 @@
+# Reproduction environment (original experiments: Python 3.9.23, Numba 0.60.0).
+# Numba 0.60.0 supports Python <=3.12; use Python 3.9--3.12 where possible.
+numpy>=1.24,<2.1
+pandas>=2.0,<2.3
+numba==0.60.0
+matplotlib>=3.6,<4
+openpyxl>=3.1,<4
+ipython>=8,<10
+pytest>=7,<10
+
+# --- Exact method only (code/exact/): requires a working Gurobi licence.    ---
+# The GRASP-VND heuristic above does NOT need Gurobi; install this only to run
+# the exact anchors / branch-and-price. Academic licences are free from Gurobi.
+gurobipy>=10,<12

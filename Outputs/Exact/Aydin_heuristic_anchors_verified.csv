@@ -1,0 +1,7 @@
+city,anchor,profile,value,verify_recompute,seed,n_feasible,verify_ok
+Aydin,financial(Cmin),(all),16757.591,16757.591,3,30,True
+Aydin,latency(Pmin),Equal,96453.0,96453.0,5,30,True
+Aydin,latency(Pmin),Tiered,53048.799999999996,53048.8,17,30,True
+Aydin,latency(Pmin),Demand_Correlated,60458.370370370365,60458.37,7,30,True
+Aydin,latency(Pmin),Negative_Correlated,84221.12962962962,84221.13,21,30,True
+Aydin,latency(Pmin),Hyper_Critical,147558.0,147558.0,29,30,True

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+Logs/
+.DS_Store
+Thumbs.db
+*.tmp
+.env
+.env.*
+!*.env.example

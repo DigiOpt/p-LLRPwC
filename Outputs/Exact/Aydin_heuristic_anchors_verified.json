@@ -1,0 +1,436 @@
+{
+  "city": "Aydin",
+  "financial_anchor": {
+    "financial": 16757.591,
+    "latency_equal": 140352.0,
+    "seed": 3,
+    "open_depots": [
+      0,
+      1,
+      2
+    ],
+    "routes": [
+      {
+        "depot": 0,
+        "path": [
+          10,
+          21,
+          24,
+          0,
+          1
+        ]
+      },
+      {
+        "depot": 1,
+        "path": [
+          4,
+          9,
+          14,
+          11,
+          19,
+          6
+        ]
+      },
+      {
+        "depot": 2,
+        "path": [
+          7,
+          26,
+          18,
+          27,
+          22,
+          2,
+          8
+        ]
+      },
+      {
+        "depot": 0,
+        "path": [
+          30,
+          25,
+          29,
+          15,
+          17,
+          13,
+          12
+        ]
+      },
+      {
+        "depot": 1,
+        "path": [
+          5,
+          16,
+          23,
+          3,
+          20,
+          28
+        ]
+      }
+    ],
+    "verify_C_F": 16757.591,
+    "verify_fails": [],
+    "n_feasible_seeds": 30
+  },
+  "latency_anchor_by_profile": {
+    "Equal": {
+      "latency": 96453.0,
+      "financial": 16849.745,
+      "seed": 5,
+      "open_depots": [
+        0,
+        2,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 0,
+          "path": [
+            3,
+            10,
+            21,
+            23,
+            16,
+            19
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            8,
+            7,
+            26,
+            27,
+            18,
+            22,
+            2
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            9,
+            14,
+            11,
+            5,
+            4,
+            6
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            24,
+            1,
+            12,
+            13
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            15,
+            29,
+            25,
+            30,
+            20,
+            28,
+            17
+          ]
+        }
+      ],
+      "verify_P": 96453.0,
+      "verify_C_F": 16849.745,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Tiered": {
+      "latency": 53048.799999999996,
+      "financial": 16871.264,
+      "seed": 17,
+      "open_depots": [
+        0,
+        1,
+        2
+      ],
+      "routes": [
+        {
+          "depot": 0,
+          "path": [
+            24,
+            1,
+            30,
+            25,
+            17
+          ]
+        },
+        {
+          "depot": 1,
+          "path": [
+            5,
+            4,
+            28,
+            20,
+            21,
+            19,
+            6
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            7,
+            15,
+            29,
+            0,
+            12,
+            13
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            10,
+            23,
+            16,
+            9,
+            14,
+            11
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            8,
+            26,
+            27,
+            18,
+            22,
+            2
+          ]
+        }
+      ],
+      "verify_P": 53048.8,
+      "verify_C_F": 16871.264,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Demand_Correlated": {
+      "latency": 60458.370370370365,
+      "financial": 16849.745,
+      "seed": 7,
+      "open_depots": [
+        0,
+        2,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 3,
+          "path": [
+            9,
+            14,
+            11,
+            5,
+            4,
+            6
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            24,
+            1,
+            12,
+            13
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            8,
+            7,
+            26,
+            27,
+            18,
+            22,
+            2
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            10,
+            21,
+            23,
+            16,
+            19
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            15,
+            29,
+            25,
+            30,
+            20,
+            28,
+            17
+          ]
+        }
+      ],
+      "verify_P": 60458.37,
+      "verify_C_F": 16849.745,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Negative_Correlated": {
+      "latency": 84221.12962962962,
+      "financial": 16849.745,
+      "seed": 21,
+      "open_depots": [
+        0,
+        2,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 0,
+          "path": [
+            3,
+            10,
+            21,
+            23,
+            16,
+            19
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            8,
+            7,
+            26,
+            27,
+            18,
+            22,
+            2
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            9,
+            14,
+            11,
+            5,
+            4,
+            6
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            15,
+            29,
+            25,
+            30,
+            20,
+            28,
+            17
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            24,
+            1,
+            12,
+            13
+          ]
+        }
+      ],
+      "verify_P": 84221.13,
+      "verify_C_F": 16849.745,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    },
+    "Hyper_Critical": {
+      "latency": 147558.0,
+      "financial": 16999.509,
+      "seed": 29,
+      "open_depots": [
+        0,
+        2,
+        3
+      ],
+      "routes": [
+        {
+          "depot": 2,
+          "path": [
+            7,
+            26,
+            27,
+            18,
+            22,
+            2
+          ]
+        },
+        {
+          "depot": 3,
+          "path": [
+            9,
+            14,
+            11,
+            28,
+            4,
+            5,
+            25
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            0,
+            24,
+            30,
+            12,
+            13
+          ]
+        },
+        {
+          "depot": 2,
+          "path": [
+            8,
+            17,
+            15,
+            29,
+            1,
+            10
+          ]
+        },
+        {
+          "depot": 0,
+          "path": [
+            3,
+            20,
+            21,
+            23,
+            16,
+            19,
+            6
+          ]
+        }
+      ],
+      "verify_P": 147558.0,
+      "verify_C_F": 16999.509,
+      "verify_fails": [],
+      "n_feasible_seeds": 30
+    }
+  }
+}

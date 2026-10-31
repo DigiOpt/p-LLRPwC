@@ -1,0 +1,3484 @@
+{
+  "Equal": {
+    "cost_anchor_flow_lex": {
+      "C_F": 11031.218,
+      "P": 20505.0,
+      "status": "OPTIMAL",
+      "gap": null,
+      "time_s": 925.5,
+      "primary": "cost",
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11031.218,
+        "P": 20505.0,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C030",
+              "C002",
+              "C032",
+              "C008"
+            ],
+            "load": 118.0,
+            "duration": 1283.0,
+            "travel_cost": 207.415,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C030": 607.0,
+              "C002": 779.0,
+              "C032": 1025.0,
+              "C008": 1051.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C001",
+              "C005",
+              "C004",
+              "C016",
+              "C033"
+            ],
+            "load": 119.0,
+            "duration": 1841.0,
+            "travel_cost": 210.727,
+            "arrivals": {
+              "C006": 226.0,
+              "C001": 658.0,
+              "C005": 883.0,
+              "C004": 1123.0,
+              "C016": 1348.0,
+              "C033": 1754.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C003",
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C011",
+              "C021"
+            ],
+            "load": 123.0,
+            "duration": 1379.0,
+            "travel_cost": 208.028,
+            "arrivals": {
+              "C025": 354.0,
+              "C031": 402.0,
+              "C003": 479.0,
+              "C022": 505.0,
+              "C028": 642.0,
+              "C010": 653.0,
+              "C026": 796.0,
+              "C011": 1009.0,
+              "C021": 1143.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C012",
+              "C023",
+              "C037",
+              "C036"
+            ],
+            "load": 60.0,
+            "duration": 691.0,
+            "travel_cost": 202.563,
+            "arrivals": {
+              "C015": 0.0,
+              "C012": 263.0,
+              "C023": 392.0,
+              "C037": 571.0,
+              "C036": 668.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C014",
+              "C007",
+              "C018",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 125.0,
+            "duration": 825.0,
+            "travel_cost": 202.485,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C014": 108.0,
+              "C007": 137.0,
+              "C018": 272.0,
+              "C027": 392.0,
+              "C019": 461.0,
+              "C035": 672.0
+            }
+          }
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      }
+    },
+    "lat_anchor_Pmin_bnp": {
+      "UB": 16511.0,
+      "LB": 16511.0,
+      "gap": 0.0,
+      "lb_certified": true,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11062.137,
+        "P": 16511.0,
+        "routes": [
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C028",
+              "C010",
+              "C026",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 112.0,
+            "duration": 2481.0,
+            "travel_cost": 228.758,
+            "arrivals": {
+              "C028": 137.0,
+              "C010": 148.0,
+              "C026": 291.0,
+              "C004": 1120.0,
+              "C001": 1220.0,
+              "C005": 1445.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C003",
+              "C031",
+              "C025",
+              "C011",
+              "C021",
+              "C023",
+              "C012",
+              "C030"
+            ],
+            "load": 122.0,
+            "duration": 1400.0,
+            "travel_cost": 207.294,
+            "arrivals": {
+              "C022": 0.0,
+              "C003": 33.0,
+              "C031": 126.0,
+              "C025": 173.0,
+              "C011": 328.0,
+              "C021": 462.0,
+              "C023": 599.0,
+              "C012": 793.0,
+              "C030": 1058.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": 19387.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1101.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 17117.0,
+          "incumbent": 19387.0,
+          "proven": true,
+          "nodes": 105,
+          "time_s": 1197.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": 17117.0,
+          "incumbent": 26610.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 9.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": 17117.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1210.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": 17117.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1213.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": 17117.0,
+          "incumbent": 24168.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 28.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 17117.0,
+          "incumbent": 25758.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 13.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 16511.0,
+          "incumbent": 16511.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 47.5,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 16511.0,
+          "incumbent": 17117.0,
+          "proven": true,
+          "nodes": 50,
+          "time_s": 161.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 16511.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 75.5,
+          "error": null
+        }
+      ],
+      "wall_s": 1287.8
+    },
+    "lat_anchor_C_at_P_bnp": {
+      "UB": 11062.137,
+      "LB": 11062.137,
+      "gap": 0.0,
+      "lb_certified": false,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11062.137,
+        "P": 16511.0,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 125.0,
+            "duration": 2481.0,
+            "travel_cost": 228.758,
+            "arrivals": {
+              "C022": 0.0,
+              "C028": 137.0,
+              "C010": 148.0,
+              "C026": 291.0,
+              "C004": 1120.0,
+              "C001": 1220.0,
+              "C005": 1445.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C003",
+              "C031",
+              "C025",
+              "C011",
+              "C021",
+              "C023",
+              "C012",
+              "C030"
+            ],
+            "load": 109.0,
+            "duration": 1400.0,
+            "travel_cost": 207.294,
+            "arrivals": {
+              "C003": 33.0,
+              "C031": 126.0,
+              "C025": 173.0,
+              "C011": 328.0,
+              "C021": 462.0,
+              "C023": 599.0,
+              "C012": 793.0,
+              "C030": 1058.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 11062.137,
+          "incumbent": 11062.137,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 11062.137,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 11062.137,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 5.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11062.137,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 9.9,
+          "error": null
+        }
+      ],
+      "wall_s": 11.6
+    },
+    "anchors_summary": {
+      "Cmin": 11031.218,
+      "Pmin": 16511.0,
+      "P_C": 20505.0,
+      "C_P": 11062.137,
+      "dC": 30.919,
+      "dP": 3994.0
+    }
+  },
+  "Tiered": {
+    "cost_anchor_flow_lex": {
+      "C_F": 11031.218,
+      "P": 12513.3,
+      "status": "OPTIMAL",
+      "gap": null,
+      "time_s": 1444.0,
+      "primary": "cost",
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11031.218,
+        "P": 12513.3,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C030",
+              "C002",
+              "C032",
+              "C008"
+            ],
+            "load": 118.0,
+            "duration": 1283.0,
+            "travel_cost": 207.415,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C030": 607.0,
+              "C002": 779.0,
+              "C032": 1025.0,
+              "C008": 1051.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C001",
+              "C005",
+              "C004",
+              "C016",
+              "C033"
+            ],
+            "load": 119.0,
+            "duration": 1841.0,
+            "travel_cost": 210.727,
+            "arrivals": {
+              "C006": 226.0,
+              "C001": 658.0,
+              "C005": 883.0,
+              "C004": 1123.0,
+              "C016": 1348.0,
+              "C033": 1754.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C003",
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C011",
+              "C021"
+            ],
+            "load": 123.0,
+            "duration": 1379.0,
+            "travel_cost": 208.028,
+            "arrivals": {
+              "C025": 354.0,
+              "C031": 402.0,
+              "C003": 479.0,
+              "C022": 505.0,
+              "C028": 642.0,
+              "C010": 653.0,
+              "C026": 796.0,
+              "C011": 1009.0,
+              "C021": 1143.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C012",
+              "C023",
+              "C037",
+              "C036"
+            ],
+            "load": 60.0,
+            "duration": 691.0,
+            "travel_cost": 202.563,
+            "arrivals": {
+              "C015": 0.0,
+              "C012": 263.0,
+              "C023": 392.0,
+              "C037": 571.0,
+              "C036": 668.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C014",
+              "C007",
+              "C018",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 125.0,
+            "duration": 825.0,
+            "travel_cost": 202.485,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C014": 108.0,
+              "C007": 137.0,
+              "C018": 272.0,
+              "C027": 392.0,
+              "C019": 461.0,
+              "C035": 672.0
+            }
+          }
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      }
+    },
+    "lat_anchor_Pmin_bnp": {
+      "UB": 10158.7,
+      "LB": 10158.7,
+      "gap": 0.0,
+      "lb_certified": true,
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11041.097,
+        "P": 10158.7,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C018",
+              "C032",
+              "C008",
+              "C035"
+            ],
+            "load": 111.0,
+            "duration": 1048.0,
+            "travel_cost": 203.847,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C018": 510.0,
+              "C032": 599.0,
+              "C008": 625.0,
+              "C035": 895.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C020",
+              "C014",
+              "C007",
+              "C034",
+              "C002",
+              "C030",
+              "C033"
+            ],
+            "load": 123.0,
+            "duration": 1383.0,
+            "travel_cost": 207.208,
+            "arrivals": {
+              "C009": 34.0,
+              "C020": 57.0,
+              "C014": 73.0,
+              "C007": 102.0,
+              "C034": 192.0,
+              "C002": 278.0,
+              "C030": 518.0,
+              "C033": 932.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C006",
+              "C016",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 124.0,
+            "duration": 1781.0,
+            "travel_cost": 211.342,
+            "arrivals": {
+              "C013": 0.0,
+              "C006": 226.0,
+              "C016": 506.0,
+              "C004": 699.0,
+              "C001": 799.0,
+              "C005": 1024.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C024",
+              "C017",
+              "C029",
+              "C031",
+              "C025",
+              "C003",
+              "C012"
+            ],
+            "load": 96.0,
+            "duration": 1720.0,
+            "travel_cost": 210.962,
+            "arrivals": {
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C031": 724.0,
+              "C025": 771.0,
+              "C003": 849.0,
+              "C012": 1174.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C023",
+              "C021",
+              "C011",
+              "C010",
+              "C028",
+              "C026",
+              "C022"
+            ],
+            "load": 91.0,
+            "duration": 1226.0,
+            "travel_cost": 207.738,
+            "arrivals": {
+              "C023": 180.0,
+              "C021": 256.0,
+              "C011": 394.0,
+              "C010": 538.0,
+              "C028": 548.0,
+              "C026": 682.0,
+              "C022": 860.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D02",
+          "D03"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": 11306.199999999999,
+          "incumbent": 15238.3,
+          "proven": true,
+          "nodes": 169,
+          "time_s": 1089.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": 11306.199999999999,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1129.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": 11306.199999999999,
+          "incumbent": 16088.7,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 35.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": 11306.199999999999,
+          "incumbent": 15306.299999999997,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 28.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 10174.7,
+          "incumbent": 11306.199999999999,
+          "proven": true,
+          "nodes": 80,
+          "time_s": 1218.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 10174.7,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 23.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 10158.7,
+          "incumbent": 15841.2,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 19.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 10158.7,
+          "incumbent": 10158.7,
+          "proven": true,
+          "nodes": 43,
+          "time_s": 173.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 10158.7,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 129.5,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": 10158.7,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1369.3,
+          "error": null
+        }
+      ],
+      "wall_s": 1371.0
+    },
+    "lat_anchor_C_at_P_bnp": {
+      "UB": 11041.097,
+      "LB": 11041.097,
+      "gap": 0.0,
+      "lb_certified": false,
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11041.097,
+        "P": 10158.7,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C016",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 109.0,
+            "duration": 1781.0,
+            "travel_cost": 211.342,
+            "arrivals": {
+              "C006": 226.0,
+              "C016": 506.0,
+              "C004": 699.0,
+              "C001": 799.0,
+              "C005": 1024.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C023",
+              "C021",
+              "C011",
+              "C010",
+              "C028",
+              "C026",
+              "C022"
+            ],
+            "load": 106.0,
+            "duration": 1226.0,
+            "travel_cost": 207.738,
+            "arrivals": {
+              "C015": 0.0,
+              "C023": 180.0,
+              "C021": 256.0,
+              "C011": 394.0,
+              "C010": 538.0,
+              "C028": 548.0,
+              "C026": 682.0,
+              "C022": 860.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C018",
+              "C032",
+              "C008",
+              "C035"
+            ],
+            "load": 96.0,
+            "duration": 1048.0,
+            "travel_cost": 203.847,
+            "arrivals": {
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C018": 510.0,
+              "C032": 599.0,
+              "C008": 625.0,
+              "C035": 895.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C031",
+              "C025",
+              "C003",
+              "C012"
+            ],
+            "load": 111.0,
+            "duration": 1720.0,
+            "travel_cost": 210.962,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C031": 724.0,
+              "C025": 771.0,
+              "C003": 849.0,
+              "C012": 1174.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C020",
+              "C014",
+              "C007",
+              "C034",
+              "C002",
+              "C030",
+              "C033"
+            ],
+            "load": 123.0,
+            "duration": 1383.0,
+            "travel_cost": 207.208,
+            "arrivals": {
+              "C009": 34.0,
+              "C020": 57.0,
+              "C014": 73.0,
+              "C007": 102.0,
+              "C034": 192.0,
+              "C002": 278.0,
+              "C030": 518.0,
+              "C033": 932.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D02",
+          "D03"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.6,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 2.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 11041.097,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 3,
+          "time_s": 6.5,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11041.097,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 12.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 11041.097,
+          "incumbent": 11041.097,
+          "proven": true,
+          "nodes": 41,
+          "time_s": 63.0,
+          "error": null
+        }
+      ],
+      "wall_s": 66.9
+    },
+    "anchors_summary": {
+      "Cmin": 11031.218,
+      "Pmin": 10158.7,
+      "P_C": 12513.3,
+      "C_P": 11041.097,
+      "dC": 9.879,
+      "dP": 2354.6
+    }
+  },
+  "Demand_Correlated": {
+    "cost_anchor_flow_lex": {
+      "C_F": 11031.218,
+      "P": 13265.675,
+      "status": "OPTIMAL",
+      "gap": null,
+      "time_s": 1183.4,
+      "primary": "cost",
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11031.218,
+        "P": 13265.675,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C030",
+              "C002",
+              "C032",
+              "C008"
+            ],
+            "load": 118.0,
+            "duration": 1283.0,
+            "travel_cost": 207.415,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C030": 607.0,
+              "C002": 779.0,
+              "C032": 1025.0,
+              "C008": 1051.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C001",
+              "C005",
+              "C004",
+              "C016",
+              "C033"
+            ],
+            "load": 119.0,
+            "duration": 1841.0,
+            "travel_cost": 210.727,
+            "arrivals": {
+              "C006": 226.0,
+              "C001": 658.0,
+              "C005": 883.0,
+              "C004": 1123.0,
+              "C016": 1348.0,
+              "C033": 1754.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C003",
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C011",
+              "C021"
+            ],
+            "load": 123.0,
+            "duration": 1379.0,
+            "travel_cost": 208.028,
+            "arrivals": {
+              "C025": 354.0,
+              "C031": 402.0,
+              "C003": 479.0,
+              "C022": 505.0,
+              "C028": 642.0,
+              "C010": 653.0,
+              "C026": 796.0,
+              "C011": 1009.0,
+              "C021": 1143.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C012",
+              "C023",
+              "C037",
+              "C036"
+            ],
+            "load": 60.0,
+            "duration": 691.0,
+            "travel_cost": 202.563,
+            "arrivals": {
+              "C015": 0.0,
+              "C012": 263.0,
+              "C023": 392.0,
+              "C037": 571.0,
+              "C036": 668.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C014",
+              "C007",
+              "C018",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 125.0,
+            "duration": 825.0,
+            "travel_cost": 202.485,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C014": 108.0,
+              "C007": 137.0,
+              "C018": 272.0,
+              "C027": 392.0,
+              "C019": 461.0,
+              "C035": 672.0
+            }
+          }
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      }
+    },
+    "lat_anchor_Pmin_bnp": {
+      "UB": 11083.575,
+      "LB": 11083.575,
+      "gap": 0.0,
+      "lb_certified": true,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11064.79,
+        "P": 11083.575,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035",
+              "C030"
+            ],
+            "load": 78.0,
+            "duration": 1328.0,
+            "travel_cost": 204.81,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0,
+              "C030": 1060.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C012",
+              "C023",
+              "C026"
+            ],
+            "load": 106.0,
+            "duration": 1295.0,
+            "travel_cost": 208.022,
+            "arrivals": {
+              "C022": 0.0,
+              "C028": 137.0,
+              "C010": 148.0,
+              "C011": 291.0,
+              "C021": 425.0,
+              "C012": 602.0,
+              "C023": 731.0,
+              "C026": 1117.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C003",
+              "C025",
+              "C031",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 118.0,
+            "duration": 2340.0,
+            "travel_cost": 228.114,
+            "arrivals": {
+              "C003": 33.0,
+              "C025": 107.0,
+              "C031": 155.0,
+              "C004": 979.0,
+              "C001": 1079.0,
+              "C005": 1304.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": 12582.375,
+          "incumbent": 13314.625,
+          "proven": true,
+          "nodes": 56,
+          "time_s": 751.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": 12444.574999999999,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 849.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": 12444.574999999999,
+          "incumbent": 16944.975,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 10.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11786.375,
+          "incumbent": 12442.9,
+          "proven": true,
+          "nodes": 185,
+          "time_s": 926.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 11551.525,
+          "incumbent": 11551.525,
+          "proven": true,
+          "nodes": 5,
+          "time_s": 55.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": 11551.525,
+          "incumbent": 11786.375,
+          "proven": true,
+          "nodes": 9,
+          "time_s": 129.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 11083.575,
+          "incumbent": 11083.575,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 35.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 11083.575,
+          "incumbent": 16519.575,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 35.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": 11083.575,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1362.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 11083.575,
+          "incumbent": 11141.8,
+          "proven": true,
+          "nodes": 3219,
+          "time_s": 3641.3,
+          "error": null
+        }
+      ],
+      "wall_s": 4396.0
+    },
+    "lat_anchor_C_at_P_bnp": {
+      "UB": 11064.79,
+      "LB": 11064.79,
+      "gap": 0.0,
+      "lb_certified": false,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11064.79,
+        "P": 11083.575,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035",
+              "C030"
+            ],
+            "load": 78.0,
+            "duration": 1328.0,
+            "travel_cost": 204.81,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0,
+              "C030": 1060.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C003",
+              "C025",
+              "C031",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 118.0,
+            "duration": 2340.0,
+            "travel_cost": 228.114,
+            "arrivals": {
+              "C003": 33.0,
+              "C025": 107.0,
+              "C031": 155.0,
+              "C004": 979.0,
+              "C001": 1079.0,
+              "C005": 1304.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C012",
+              "C023",
+              "C026"
+            ],
+            "load": 106.0,
+            "duration": 1295.0,
+            "travel_cost": 208.022,
+            "arrivals": {
+              "C022": 0.0,
+              "C028": 137.0,
+              "C010": 148.0,
+              "C011": 291.0,
+              "C021": 425.0,
+              "C012": 602.0,
+              "C023": 731.0,
+              "C026": 1117.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 11064.79,
+          "incumbent": 11064.79,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 2.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 11064.79,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11064.79,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 15.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 11064.79,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 2909,
+          "time_s": 4635.8,
+          "error": null
+        }
+      ],
+      "wall_s": 4639.8
+    },
+    "anchors_summary": {
+      "Cmin": 11031.218,
+      "Pmin": 11083.575,
+      "P_C": 13265.675,
+      "C_P": 11064.79,
+      "dC": 33.572,
+      "dP": 2182.1
+    }
+  },
+  "Negative_Correlated": {
+    "cost_anchor_flow_lex": {
+      "C_F": 11031.218,
+      "P": 17491.825,
+      "status": "OPTIMAL",
+      "gap": null,
+      "time_s": 1448.2,
+      "primary": "cost",
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11031.218,
+        "P": 17491.825,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C030",
+              "C002",
+              "C032",
+              "C008"
+            ],
+            "load": 118.0,
+            "duration": 1283.0,
+            "travel_cost": 207.415,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C030": 607.0,
+              "C002": 779.0,
+              "C032": 1025.0,
+              "C008": 1051.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C001",
+              "C005",
+              "C004",
+              "C016",
+              "C033"
+            ],
+            "load": 119.0,
+            "duration": 1841.0,
+            "travel_cost": 210.727,
+            "arrivals": {
+              "C006": 226.0,
+              "C001": 658.0,
+              "C005": 883.0,
+              "C004": 1123.0,
+              "C016": 1348.0,
+              "C033": 1754.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C003",
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C011",
+              "C021"
+            ],
+            "load": 123.0,
+            "duration": 1379.0,
+            "travel_cost": 208.028,
+            "arrivals": {
+              "C025": 354.0,
+              "C031": 402.0,
+              "C003": 479.0,
+              "C022": 505.0,
+              "C028": 642.0,
+              "C010": 653.0,
+              "C026": 796.0,
+              "C011": 1009.0,
+              "C021": 1143.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C012",
+              "C023",
+              "C037",
+              "C036"
+            ],
+            "load": 60.0,
+            "duration": 691.0,
+            "travel_cost": 202.563,
+            "arrivals": {
+              "C015": 0.0,
+              "C012": 263.0,
+              "C023": 392.0,
+              "C037": 571.0,
+              "C036": 668.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C014",
+              "C007",
+              "C018",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 125.0,
+            "duration": 825.0,
+            "travel_cost": 202.485,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C014": 108.0,
+              "C007": 137.0,
+              "C018": 272.0,
+              "C027": 392.0,
+              "C019": 461.0,
+              "C035": 672.0
+            }
+          }
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      }
+    },
+    "lat_anchor_Pmin_bnp": {
+      "UB": 13635.25,
+      "LB": 13635.25,
+      "gap": 0.0,
+      "lb_certified": true,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11055.721,
+        "P": 13635.25,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C030",
+              "C029",
+              "C017",
+              "C024"
+            ],
+            "load": 117.0,
+            "duration": 1445.0,
+            "travel_cost": 207.799,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C030": 382.0,
+              "C029": 636.0,
+              "C017": 734.0,
+              "C024": 990.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C003",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C023",
+              "C012"
+            ],
+            "load": 118.0,
+            "duration": 1121.0,
+            "travel_cost": 206.098,
+            "arrivals": {
+              "C022": 0.0,
+              "C003": 33.0,
+              "C028": 172.0,
+              "C010": 183.0,
+              "C011": 326.0,
+              "C021": 460.0,
+              "C023": 597.0,
+              "C012": 791.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C026",
+              "C016",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 121.0,
+            "duration": 2642.0,
+            "travel_cost": 230.034,
+            "arrivals": {
+              "C025": 73.0,
+              "C031": 121.0,
+              "C026": 323.0,
+              "C016": 1088.0,
+              "C004": 1281.0,
+              "C001": 1381.0,
+              "C005": 1606.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": 17353.75,
+          "incumbent": 17353.75,
+          "proven": true,
+          "nodes": 33,
+          "time_s": 732.5,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": 17353.75,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 739.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": 17353.75,
+          "incumbent": 22970.025,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 6.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 14973.699999999999,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 770.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": 14068.775,
+          "incumbent": 14973.699999999999,
+          "proven": true,
+          "nodes": 6,
+          "time_s": 40.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 13635.25,
+          "incumbent": 13635.25,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 20.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 13635.25,
+          "incumbent": 14068.775,
+          "proven": true,
+          "nodes": 16,
+          "time_s": 76.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 13635.25,
+          "incumbent": 22117.425,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 20.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 13635.25,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 82.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": 13635.25,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 890.0,
+          "error": null
+        }
+      ],
+      "wall_s": 891.6
+    },
+    "lat_anchor_C_at_P_bnp": {
+      "UB": 11055.721000000001,
+      "LB": 11055.721000000001,
+      "gap": 0.0,
+      "lb_certified": false,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11055.721,
+        "P": 13635.25,
+        "routes": [
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C030",
+              "C029",
+              "C017",
+              "C024"
+            ],
+            "load": 117.0,
+            "duration": 1445.0,
+            "travel_cost": 207.799,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C030": 382.0,
+              "C029": 636.0,
+              "C017": 734.0,
+              "C024": 990.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C026",
+              "C016",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 121.0,
+            "duration": 2642.0,
+            "travel_cost": 230.034,
+            "arrivals": {
+              "C025": 73.0,
+              "C031": 121.0,
+              "C026": 323.0,
+              "C016": 1088.0,
+              "C004": 1281.0,
+              "C001": 1381.0,
+              "C005": 1606.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C003",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C023",
+              "C012"
+            ],
+            "load": 118.0,
+            "duration": 1121.0,
+            "travel_cost": 206.098,
+            "arrivals": {
+              "C022": 0.0,
+              "C003": 33.0,
+              "C028": 172.0,
+              "C010": 183.0,
+              "C011": 326.0,
+              "C021": 460.0,
+              "C023": 597.0,
+              "C012": 791.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 3.2,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 11055.721000000001,
+          "incumbent": 11055.721000000001,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11055.721000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 6.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 11055.721000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        }
+      ],
+      "wall_s": 8.7
+    },
+    "anchors_summary": {
+      "Cmin": 11031.218,
+      "Pmin": 13635.25,
+      "P_C": 17491.825,
+      "C_P": 11055.721000000001,
+      "dC": 24.503,
+      "dP": 3856.575
+    }
+  },
+  "Hyper_Critical": {
+    "cost_anchor_flow_lex": {
+      "C_F": 11031.218,
+      "P": 28236.0,
+      "status": "TIME_LIMIT",
+      "gap": null,
+      "time_s": 1800.3,
+      "primary": "cost",
+      "solution": {
+        "open_depots": [
+          "D02",
+          "D03"
+        ],
+        "n_routes": 5,
+        "C_F": 11031.218,
+        "P": 28236.0,
+        "routes": [
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C013",
+              "C024",
+              "C017",
+              "C029",
+              "C030",
+              "C002",
+              "C032",
+              "C008"
+            ],
+            "load": 118.0,
+            "duration": 1283.0,
+            "travel_cost": 207.415,
+            "arrivals": {
+              "C013": 0.0,
+              "C024": 221.0,
+              "C017": 323.0,
+              "C029": 401.0,
+              "C030": 607.0,
+              "C002": 779.0,
+              "C032": 1025.0,
+              "C008": 1051.0
+            }
+          },
+          {
+            "depot": "D02",
+            "pharmacy_ids": [
+              "C006",
+              "C001",
+              "C005",
+              "C004",
+              "C016",
+              "C033"
+            ],
+            "load": 119.0,
+            "duration": 1841.0,
+            "travel_cost": 210.727,
+            "arrivals": {
+              "C006": 226.0,
+              "C001": 658.0,
+              "C005": 883.0,
+              "C004": 1123.0,
+              "C016": 1348.0,
+              "C033": 1754.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C025",
+              "C031",
+              "C003",
+              "C022",
+              "C028",
+              "C010",
+              "C026",
+              "C011",
+              "C021"
+            ],
+            "load": 123.0,
+            "duration": 1379.0,
+            "travel_cost": 208.028,
+            "arrivals": {
+              "C025": 354.0,
+              "C031": 402.0,
+              "C003": 479.0,
+              "C022": 505.0,
+              "C028": 642.0,
+              "C010": 653.0,
+              "C026": 796.0,
+              "C011": 1009.0,
+              "C021": 1143.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C012",
+              "C023",
+              "C037",
+              "C036"
+            ],
+            "load": 60.0,
+            "duration": 691.0,
+            "travel_cost": 202.563,
+            "arrivals": {
+              "C015": 0.0,
+              "C012": 263.0,
+              "C023": 392.0,
+              "C037": 571.0,
+              "C036": 668.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C014",
+              "C007",
+              "C018",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 125.0,
+            "duration": 825.0,
+            "travel_cost": 202.485,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C014": 108.0,
+              "C007": 137.0,
+              "C018": 272.0,
+              "C027": 392.0,
+              "C019": 461.0,
+              "C035": 672.0
+            }
+          }
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      }
+    },
+    "lat_anchor_Pmin_bnp": {
+      "UB": 17251.0,
+      "LB": 17251.0,
+      "gap": 0.0,
+      "lb_certified": true,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11062.996,
+        "P": 17251.0,
+        "routes": [
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C003",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C023",
+              "C012",
+              "C030"
+            ],
+            "load": 115.0,
+            "duration": 1398.0,
+            "travel_cost": 207.38,
+            "arrivals": {
+              "C003": 33.0,
+              "C028": 172.0,
+              "C010": 183.0,
+              "C011": 326.0,
+              "C021": 460.0,
+              "C023": 597.0,
+              "C012": 791.0,
+              "C030": 1056.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C025",
+              "C031",
+              "C026",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 119.0,
+            "duration": 2513.0,
+            "travel_cost": 229.531,
+            "arrivals": {
+              "C022": 0.0,
+              "C025": 73.0,
+              "C031": 121.0,
+              "C026": 323.0,
+              "C004": 1152.0,
+              "C001": 1252.0,
+              "C005": 1477.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": 21100.0,
+          "incumbent": 21100.0,
+          "proven": true,
+          "nodes": 65,
+          "time_s": 1166.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 21100.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 165.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": 21100.0,
+          "incumbent": 35421.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 3.4,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 18671.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1656.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 18671.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 120.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 17251.0,
+          "incumbent": 17251.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 27.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 17251.0,
+          "incumbent": 26721.0,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 10.5,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": 17251.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 2193.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": 17251.0,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 2239.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": 18519.7109375,
+          "incumbent": 18671.0,
+          "proven": false,
+          "nodes": 11,
+          "time_s": 23280.1,
+          "error": null
+        }
+      ],
+      "wall_s": 24622.5
+    },
+    "lat_anchor_C_at_P_bnp": {
+      "UB": 11062.996000000001,
+      "LB": 11062.996000000001,
+      "gap": 0.0,
+      "lb_certified": false,
+      "solution": {
+        "open_depots": [
+          "D03",
+          "D05"
+        ],
+        "n_routes": 5,
+        "C_F": 11062.996,
+        "P": 17251.0,
+        "routes": [
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C003",
+              "C028",
+              "C010",
+              "C011",
+              "C021",
+              "C023",
+              "C012",
+              "C030"
+            ],
+            "load": 115.0,
+            "duration": 1398.0,
+            "travel_cost": 207.38,
+            "arrivals": {
+              "C003": 33.0,
+              "C028": 172.0,
+              "C010": 183.0,
+              "C011": 326.0,
+              "C021": 460.0,
+              "C023": 597.0,
+              "C012": 791.0,
+              "C030": 1056.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C015",
+              "C037",
+              "C036",
+              "C027",
+              "C019",
+              "C035"
+            ],
+            "load": 68.0,
+            "duration": 782.0,
+            "travel_cost": 202.241,
+            "arrivals": {
+              "C015": 0.0,
+              "C037": 161.0,
+              "C036": 258.0,
+              "C027": 349.0,
+              "C019": 418.0,
+              "C035": 629.0
+            }
+          },
+          {
+            "depot": "D05",
+            "pharmacy_ids": [
+              "C022",
+              "C025",
+              "C031",
+              "C026",
+              "C004",
+              "C001",
+              "C005"
+            ],
+            "load": 119.0,
+            "duration": 2513.0,
+            "travel_cost": 229.531,
+            "arrivals": {
+              "C022": 0.0,
+              "C025": 73.0,
+              "C031": 121.0,
+              "C026": 323.0,
+              "C004": 1152.0,
+              "C001": 1252.0,
+              "C005": 1477.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C014",
+              "C007",
+              "C018",
+              "C032",
+              "C008",
+              "C013",
+              "C033",
+              "C006"
+            ],
+            "load": 121.0,
+            "duration": 1687.0,
+            "travel_cost": 209.549,
+            "arrivals": {
+              "C014": 74.0,
+              "C007": 103.0,
+              "C018": 238.0,
+              "C032": 327.0,
+              "C008": 353.0,
+              "C013": 585.0,
+              "C033": 733.0,
+              "C006": 961.0
+            }
+          },
+          {
+            "depot": "D03",
+            "pharmacy_ids": [
+              "C009",
+              "C034",
+              "C020",
+              "C002",
+              "C029",
+              "C017",
+              "C024",
+              "C016"
+            ],
+            "load": 122.0,
+            "duration": 2119.0,
+            "travel_cost": 214.295,
+            "arrivals": {
+              "C009": 34.0,
+              "C034": 61.0,
+              "C020": 92.0,
+              "C002": 142.0,
+              "C029": 438.0,
+              "C017": 536.0,
+              "C024": 792.0,
+              "C016": 1294.0
+            }
+          }
+        ],
+        "best_pair": [
+          "D03",
+          "D05"
+        ],
+        "verify_ok": true,
+        "verify_failures": []
+      },
+      "per_pair": [
+        {
+          "depots": [
+            "D01",
+            "D02"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.0,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 1.1,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D04"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.7,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D05"
+          ],
+          "lb": null,
+          "incumbent": null,
+          "proven": false,
+          "nodes": 1,
+          "time_s": 0.8,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D05"
+          ],
+          "lb": 11062.996000000001,
+          "incumbent": 11062.996000000001,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1.3,
+          "error": null
+        },
+        {
+          "depots": [
+            "D03",
+            "D04"
+          ],
+          "lb": 11062.996000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 1.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D01",
+            "D03"
+          ],
+          "lb": 11062.996000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 5.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D02",
+            "D03"
+          ],
+          "lb": 11062.996000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 4.9,
+          "error": null
+        },
+        {
+          "depots": [
+            "D04",
+            "D05"
+          ],
+          "lb": 11062.996000000001,
+          "incumbent": null,
+          "proven": true,
+          "nodes": 1,
+          "time_s": 0.6,
+          "error": null
+        }
+      ],
+      "wall_s": 8.8
+    },
+    "anchors_summary": {
+      "Cmin": 11031.218,
+      "Pmin": 17251.0,
+      "P_C": 28236.0,
+      "C_P": 11062.996000000001,
+      "dC": 31.778,
+      "dP": 10985.0
+    }
+  },
+  "_extra_flow_tcheby_Equal_lam0.5": {
+    "gap": 0.9854967119038087,
+    "status": "TIME_LIMIT",
+    "time_s": 1800.0,
+    "bound": 0.001569,
+    "obj": 0.108181
+  }
+}

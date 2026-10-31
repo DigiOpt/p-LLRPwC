@@ -1,0 +1,7 @@
+city,anchor,profile,value,verify_recompute,seed,n_feasible,verify_ok
+Canakkale,financial(Cmin),(all),11031.218,11031.218,6,30,True
+Canakkale,latency(Pmin),Equal,16511.0,16511.0,6,30,True
+Canakkale,latency(Pmin),Tiered,10158.699999999999,10158.7,20,30,True
+Canakkale,latency(Pmin),Demand_Correlated,11083.575,11083.575,25,30,True
+Canakkale,latency(Pmin),Negative_Correlated,13635.25,13635.25,0,30,True
+Canakkale,latency(Pmin),Hyper_Critical,17251.0,17251.0,3,30,True

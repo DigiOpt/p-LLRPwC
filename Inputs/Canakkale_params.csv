@@ -1,0 +1,8 @@
+parameter,value
+Ng,2
+Nv,5
+Q,125.0
+L,10000.0
+fixed_depot_cost,5000.0
+fixed_vehicle_cost,200.0
+cost_per_km,1.0
