@@ -196,3 +196,7 @@ An automated GitHub Actions workflow (`.github/workflows/validate.yml`) checks t
 ## How to cite
 
 If you use this code or data, please cite the manuscript listed above. Machine-readable citation metadata is in `CITATION.cff` (GitHub's "Cite this repository" button reads it).
+
+## Questions and issues
+
+Please report problems or questions about the code and data by opening an issue on this repository.
