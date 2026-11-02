@@ -189,6 +189,11 @@ relabelled (`C001..`/`D01..`), and demand (integer vehicle-loads) is stored dire
 in place of sales. The stored result files were relabelled with the same mapping, so
 every reported number is unchanged. A SHA-256 manifest enumerates included bytes.
 
+**Code provenance:** this archive was generated from the authors' private research
+repository at a single reference state. The exact-method code (`code/exact/`) includes
+the corrected depot-arc branching and the validated incumbent-seed guard; every anchor
+and interior optimum reported in the manuscript was produced with this corrected code.
+
 ## Verification notes
 
 An automated GitHub Actions workflow (`.github/workflows/validate.yml`) checks the source/data inventory, verifies the frozen SHA-256 manifest, and tests two mathematical invariants. It does **not** rerun the expensive GRASP experiments or assert exact optimality. Derived CSV summaries already included in `derived_tables/` can be regenerated with `python tools/rebuild_tables.py`.
