@@ -192,3 +192,7 @@ every reported number is unchanged. A SHA-256 manifest enumerates included bytes
 ## Verification notes
 
 An automated GitHub Actions workflow (`.github/workflows/validate.yml`) checks the source/data inventory, verifies the frozen SHA-256 manifest, and tests two mathematical invariants. It does **not** rerun the expensive GRASP experiments or assert exact optimality. Derived CSV summaries already included in `derived_tables/` can be regenerated with `python tools/rebuild_tables.py`.
+
+## How to cite
+
+If you use this code or data, please cite the manuscript listed above. Machine-readable citation metadata is in `CITATION.cff` (GitHub's "Cite this repository" button reads it).
