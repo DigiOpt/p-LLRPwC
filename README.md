@@ -150,6 +150,25 @@ independently verified heuristic anchor routes used for the best-known compariso
 `docs/EXACT_ANCHORS_STATEMENT.md` records the certification status of every value
 (certified optimal vs. tight upper bound vs. heuristic best-known) and the method.
 
+### Exact interior optima (Table `tab:exact_interior`, §6.4.2)
+
+`code/exact/run_exact_interior.py` reproduces the 45 Afyon interior optima (5
+profiles × λ ∈ {0.1,…,0.9}). For each profile it computes the four anchors, builds
+the normalization (`code/exact/normalization.py`: the augmented Tchebycheff `Z`,
+ρ=1e-4), then solves each interior λ with the flow Tchebycheff MILP to proven
+optimality, recomputing and verifying `C_F`/`P` from the routes:
+
+```bash
+python code/exact/run_exact_interior.py --city Afyon          # needs Gurobi
+```
+
+It writes `Outputs/Exact/Afyon_exact_validation.md`, `Afyon_heuristic_vs_exact.csv`
+and `Afyon_interior_routes.json`. The committed `*_heuristic_vs_exact.csv` is the
+reference table; `code/exact/verify_interior.py` re-derives every `Z` from the
+stored `(C_F, P)` **without a solver** (and with `--resolve`, re-solves exactly and
+diffs the fresh optima). The solver-free check also runs in CI
+(`tests/test_interior_reproduction.py`).
+
 ## How to locate the results in the paper
 
 | Manuscript result | Source of record in this archive |
